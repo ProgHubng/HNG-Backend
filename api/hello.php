@@ -1,5 +1,5 @@
 <?php
-$visitor_name = isset($_GET['visitor_name']) ? htmlspecialchars($_GET['visitor_name']) : 'Mark';
+$visitor_name = isset($_GET['visitor_name']) ? htmlspecialchars($_GET['visitor_name']) : 'Heliphem';
 $client_ip = $_SERVER['REMOTE_ADDR'];
 // $location = "New York";
 $temperature = 11;
